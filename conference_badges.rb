@@ -22,4 +22,6 @@ end
 #assign_rooms method
 def assign_rooms(list)
   room_assignments = []
+
+  return room_assignments
 end
