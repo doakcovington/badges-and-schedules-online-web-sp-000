@@ -33,6 +33,6 @@ end
 
 def printer(name)
   name.each do |attendees|
-    badge_maker(attendees)
+    puts badge_maker(attendees)
   end
 end
