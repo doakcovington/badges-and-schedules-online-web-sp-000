@@ -7,5 +7,12 @@ end
 
 #batch_badge_creator method
 def batch_badge_creator(array)
+  #empty array
+  list = []
+  #iterate over the names in array
+  array.each do |names|
 
+  end
+  #return list
+  list
 end
