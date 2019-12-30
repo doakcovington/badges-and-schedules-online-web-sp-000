@@ -39,4 +39,4 @@ def printer(name)
   assign_rooms(name).each do |room|
     puts room
   end
-end
+end #end of printer method
