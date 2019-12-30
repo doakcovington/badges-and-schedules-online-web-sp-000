@@ -31,6 +31,6 @@ def assign_rooms(list)
   return room_assignments
 end
 
-def printer(attendees)
-  puts badge_maker(attendees)
+def printer(name)
+  puts badge_maker(name)
 end
