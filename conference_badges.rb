@@ -18,3 +18,8 @@ def batch_badge_creator(array)
   list
 #end of batch_badge_creator method
 end
+
+#assign_rooms method
+def assign_rooms
+  
+end
