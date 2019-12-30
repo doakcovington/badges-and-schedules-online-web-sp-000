@@ -22,9 +22,10 @@ end
 #assign_rooms method
 def assign_rooms(list)
   room_assignments = []
-
+  room_count = 1
   list.each do |name|
-    room_assignments << "Hello, #{name}! You'll be assigned to room #{0}! "
+    room_assignments << "Hello, #{name}! You'll be assigned to room #{room_count}! "
+    room_count ++
   end
 
   return room_assignments
