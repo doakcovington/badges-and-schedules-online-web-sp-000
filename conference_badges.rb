@@ -33,7 +33,7 @@ end
 
 #puts the batch_badge_creator method and the assign_rooms method
 def printer(name)
-  #iterate through the batch_badge_creator array and puts current element 
+  #iterate through the batch_badge_creator array and puts current element
   batch_badge_creator(name).each do |attendee|
     puts attendee
   end
