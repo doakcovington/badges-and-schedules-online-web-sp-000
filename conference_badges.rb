@@ -16,5 +16,5 @@ def batch_badge_creator(array)
   end
   #return list
   list
-#end of batch_badge_creator method  
+#end of batch_badge_creator method
 end
