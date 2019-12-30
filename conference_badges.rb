@@ -11,6 +11,7 @@ def batch_badge_creator(array)
   list = []
   #iterate over the names in array
   array.each do |name|
+    #add the badge messages to the list array
     list << badge_maker(name)
   end
   #return list
