@@ -21,5 +21,5 @@ end
 
 #assign_rooms method
 def assign_rooms
-  
+
 end
