@@ -10,8 +10,8 @@ def batch_badge_creator(array)
   #empty array
   list = []
   #iterate over the names in array
-  array.each do |names|
-
+  array.each do |name|
+    list << badge_maker(name)
   end
   #return list
   list
